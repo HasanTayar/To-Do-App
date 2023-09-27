@@ -1,17 +1,52 @@
-# todoapp
+# To-Do App
 
-A new Flutter project.
+This is a simple to-do app built with Flutter to help understand the basics and some advanced concepts of the framework.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Make sure you have Flutter installed on your local machine. For more instructions on how to install flutter, look [here](https://flutter.dev/docs/get-started/install).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# To-Do-App
+### Installing
+
+1. Clone the repo:
+```bash
+git clone https://github.com/HasanTayar/To-Do-App.git
+```
+2. Change the directory:
+```bash
+cd To-Do-App
+```
+3. Install dependencies:
+```bash
+flutter pub get
+```
+4. Run the app:
+```bash
+flutter run
+```
+### Features
+- Add new tasks
+- Mark tasks as complete
+- Delete tasks
+
+### Built With
+
+- [Flutter](https://flutter.dev) - The UI framework used
+- [Provider](https://pub.dev/packages/provider) - State Management
+- [https://dart.dev/](https://dart.dev/) - Language
+
+### Acknowledgments
+
+- Inspired by the countless number of to-do apps out there.
+- Big thanks to Flutter's awesome community.
+
+### Contact 
+- GitHub: [@HasanTayar](https://github.com/HasanTayar)
+- Email: [HasanTayar1602@gmail.com](mailto:HasanTayar1602@gmail.com)
+
+
+
