@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:todoapp/models/task_model.dart';
 import 'package:todoapp/view_models/app_view_model.dart';
 
-class AddTaskBottomSheetView extends StatelessWidget {
-  const AddTaskBottomSheetView({Key? key}) : super(key: key);
+class SettingsBottomSheetView extends StatelessWidget {
+  const SettingsBottomSheetView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -24,8 +23,7 @@ class AddTaskBottomSheetView extends StatelessWidget {
                 child: TextField(
                   onSubmitted: (value) {
                     if (entryController.text.isNotEmpty) {
-                      Task newTask = Task(entryController.text, false);
-                      viewModel.addTask(newTask);
+                      viewModel.updateUserName(entryController.text);
                       entryController.clear();
                     }
                     Navigator.of(context).pop();

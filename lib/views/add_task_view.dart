@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:todoapp/view_models/app._view_model.dart';
+import 'package:todoapp/view_models/app_view_model.dart';
 import 'package:todoapp/views/bottom_sheets/add_task_bottom_sheet_view.dart';
 
 class AddTaskView extends StatelessWidget {

@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Make sure you have Flutter installed on your local machine. For more instructions on how to install flutter, look [here](https://flutter.dev/docs/get-started/install).
 
-### Installing
+## Installing
 
 1. Clone the repo:
 ```bash
@@ -28,25 +28,47 @@ flutter pub get
 ```bash
 flutter run
 ```
-### Features
+## Features
 - Add new tasks
 - Mark tasks as complete
 - Delete tasks
 
-### Built With
+## Built With
 
 - [Flutter](https://flutter.dev) - The UI framework used
 - [Provider](https://pub.dev/packages/provider) - State Management
 - [https://dart.dev/](https://dart.dev/) - Language
 
-### Acknowledgments
+## Screenshots
+### Main Screen:
+
+<img src="./ScreenShots/main.png" alt="Example Image" style="max-width:100%; height:auto;"/>
+
+### Editing Username:
+
+<img src="./ScreenShots/editUserName.png" alt="Example Image" style="max-width:100%; height:auto;"/>
+
+### Marking Tasks:
+
+<img src="./ScreenShots/MarkingTaskDone.png" alt="Example Image" style="max-width:100%; height:auto;"/>
+
+### Delteting Buttuns:
+
+<img src="./ScreenShots/DelteingButtons.png" alt="Example Image" style="max-width:100%; height:auto;"/>
+
+### After Deleting:
+
+<img src="./ScreenShots/AfterDelteing.png" alt="Example Image" style="max-width:100%; height:auto;"/>
+
+## Acknowledgments
 
 - Inspired by the countless number of to-do apps out there.
 - Big thanks to Flutter's awesome community.
 
-### Contact 
+## Contact 
 - GitHub: [@HasanTayar](https://github.com/HasanTayar)
 - Email: [HasanTayar1602@gmail.com](mailto:HasanTayar1602@gmail.com)
+
 
 
 
